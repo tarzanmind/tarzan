@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: auto;
+
+  
+}
+body{
+    background-image: url(fundo.png)
+    
+
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    outline: none;
+}
+.container{
+    background-color: #f6afce;
+    width: 500px;
+    height: 400px;
+    margin: 150px auto  0;
+    border-radius: 5%;
+    box-shadow: 0px 0px 50px rgba(162, 46, 123, 0.8);
+    z-index: 2;
+}
+.input-task{
+    padding-left: 5px;
+    height: 25px;
+    width: 300px;
+    margin: 10px 0 20px 50px;
+    border: #d22a73 2px solid;
+    border-radius: 10px;
+    color: #be0d5a;
+    outline: none;
+}
+.add{
+    height: 25px;
+    width: 80px;
+    background-color: #d22a73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0,8;
+
+}
+
+.add:hover{
+    background-color: #e15793;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.add:active{
+    background-color: #ff8abd; 
+}
+#winx1{
+    width: 190px;
+    margin: 0;
+    position: absolute;
+    top: 290px;
+    left: 1200px;
+}
+#winx2{
+    
+    width: 176px;
+    margin: 0;
+    position: absolute;
+    top: 308px;
+    left: 140px;
+    z-index: 11;
+}
+#winx3{
+    width: 280px;
+    position: absolute;
+    top: 10px;
+    right: 860px;
+    z-index: 10;
+
+}
+ul{
+   width: 350px;
+}
+span{
+    cursor: pointer;
+}
+
+li{
+    background-color: #d06292;
+    border-radius: 5px;
+    padding: 10px;
+    width:300px ;
+    height: 22px;
+    margin: 0 0px 10px 52px ;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
