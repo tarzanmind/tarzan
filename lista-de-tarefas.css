@@ -105,4 +105,57 @@ li{
     
 
 }
+@media screen and (max-width: 915px) {
+    .body {
+        width: 100%;
+    }
 
+    .container {
+        width: 85%;
+    }
+
+    .input-task {
+        width: 60%;
+        margin: 4% 0 0 8%;
+    }
+
+    .add {
+        margin: 0 5% 0 1%;
+    }
+
+    #winx1 {
+        position: fixed;
+        width: 25%;
+        left: 314px;
+        top: 443px;
+    }
+
+
+#winx2 {
+    position: fixed;
+    width: 23%;
+    top: 50%;
+    left: 9%;
+}
+
+#winx3 {
+    position: fixed;
+    width: 40%;
+    left: 0;
+    top: 72px;
+
+}
+
+li {
+    margin: 5% 0 0 5%;
+    width: 90%;
+    height: 1%;
+    padding: 1%;
+}
+
+h1 {
+    width: 80%;
+    font-size: 130%;
+    margin: auto;
+}
+}
