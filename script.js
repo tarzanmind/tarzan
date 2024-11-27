@@ -52,10 +52,7 @@ function changeSelect() {
 
     
 for (let i = 0; i<3;i++){
-
-}
-
-    if (convertTo.value == dados[0].value) {
+     if (convertTo.value == dados[0].value) {
         flagimage.src = dados[0].imageSrc
         value2.innerHTML = "$ 0,00"
         convertMoney();
@@ -70,6 +67,10 @@ for (let i = 0; i<3;i++){
         value2.innerHTML = "₿ 0,00"
         convertMoney();
     }
+
+}
+
+   
 }
 
 convertButton.addEventListener('click', convertMoney)
