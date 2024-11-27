@@ -41,9 +41,9 @@ function convertMoney() {
 }
 
 const dados = [
-    {value: "dolar", imageSrc: "public/Dolar.png"},
-    {value: "euro", imageSrc: "public/Euro.png"},
-    {value: "btc", imageSrc: "public/Btc.png"},
+    {value: "dolar", imageSrc: "./public/Dolar.png"},
+    {value: "euro", imageSrc: "./public/Euro.png"},
+    {value: "btc", imageSrc: "./public/Btc.png"},
 ];
 
 function changeSelect() {
